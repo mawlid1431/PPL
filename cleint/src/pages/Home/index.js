@@ -5,7 +5,10 @@ function Home() {
     return (
         <div className=' bg-primary px-40 '>
             <Header />
-            <Into />
+            <div className='bg-primary px-10' >
+            <Into />  
+            </div>
+           
 
         </div>
     )

@@ -13,7 +13,7 @@ function Into() {
         Building websites, connecting communities.
       </h1>
 
-      <p className="text-white ">
+      <p className="text-white w-2/2 ">
         {" "}
         I’m Mowlid Mohamoud, and I’m deeply passionate about community
         development, technology, and creating positive change. Based in

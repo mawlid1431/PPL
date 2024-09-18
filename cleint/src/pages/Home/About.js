@@ -2,11 +2,11 @@ import React from "react";
 import SectionTitle from "../../components/SectionTitle ";
 function About() {
   return (
-    <div>
+    <div className="flex flex-col ">
       <SectionTitle title="About" />
 
-      <div className="flex">
-        <div className="h-[70vh]">
+      <div className="flex ">
+        <div className="h-[70vh] w-full items-center">
           <lottie-player
             src="https://lottie.host/216da901-cfc9-48a9-aa09-dcafeb1fd3a5/4eCe3iodGa.json"
             background="#FFFFFF"
@@ -15,8 +15,8 @@ function About() {
             direction="1"
             mode="normal"></lottie-player>
         </div>
-        <div className="  flex flex-col gap-5">
-          <p className="text-tertiary">
+        <div className="  flex flex-col gap-10 w-1/2 mr-40">
+          <p className="text-primary">
             {" "}
             Hello! I’m Mowlid Mohamoud, and I’m deeply passionate about
             community development, technology, and creating positive change.
@@ -25,7 +25,7 @@ function About() {
             has been shaped by a commitment to harnessing this power through
             technology, innovation, and active community engagement.
           </p>
-          <p className="text-tertiary">
+          <p className="text-primary">
             {" "}
             With a rich background in both technology and community-focused
             roles, I bring a unique perspective to every project. Whether it’s

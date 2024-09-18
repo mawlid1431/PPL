@@ -5,12 +5,12 @@ import About from './About'
 
 function Home() {
     return (
-        <div className=' bg-primary px-40 '>
+        <div >
             <Header />
-            <div className='bg-primary px-10' >
+            <div className='bg-primary px-40  ' >
             <Into />  
             </div>
-           <div  className='text-white'> <About/>  </div>
+           <div  > <About/>  </div>
            
 
         </div>
